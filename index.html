@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ster Books | 一冊の本と一杯の珈琲を。</title>
+  <meta name="description" content="Ster Booksは、コーヒーを片手に好きな本を楽しめる、本好きのためのカフェ併設型書店です。">
+  <meta property="og:image" content="image/OGP-img.png">
+
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <header class="header">
+  <div class="header__inner">
+      <h1 class="header__logo">
+        <a class="header__link" href="#">
+            <img loading="lazy" decoding="async" src="image/Ster Books.png" alt="StarBooks" width="120" height="17">
+        </a>
+      </h1>
+      
+      <nav class="header__nav">
+        <ul class="header__list">
+        <li class="header__item"><a class="header__link" href="#about">私たちについて</a></li>
+        <li class="header__item"><a class="header__link" href="#service">店内での過ごし方</a></li>
+        <li class="header__item"><a class="header__link" href="#faq">よくあるご質問</a></li>
+        <li class="header__item"><a class="header__link" href="#access">アクセス</a></li>
+        </ul>
+      </nav>
+
+      <button class="header__hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+  <!-- メインビジュアル -->
+  <section id="mainvisual" class="mainvisual">
+    <div class="mainvisual__inner">
+      <div class="mainvisual__content">
+        <picture class="mainvisual__image">
+          <source srcset="image/mv(pc).jpg" media="(min-width: 768px)">
+          <img class="mainvisual__img" loading="lazy" decoding="async" src="image/mv(sp).png" alt="一冊の本と、一杯のコーヒーを。" width="357" height="600">
+        </picture>
+        <h2 class="mainvisual__text">一冊の本と、<br class="sp-br">一杯のコーヒーを。</h2>
+        <h2 class="mainvisual__text-pc">一冊の本と、<br class="sp-br">一杯の珈琲を。</h2>
+      </div>
+    </div>   
+  </section>
+
+  <!-- 私たちについて -->
+  <section id="about" class="about">
+    <div class="section-inner about__inner">
+      <h2 class="section-title">私たちについて</h2>
+      <div class="about__text-group">
+        <p class="about__text">
+          ster booksは、<br>コーヒーと本をゆっくり楽しむため<br class="sp-br">の小さな古本屋です。
+        </p>
+        <p class="about__text">
+          店内ではコーヒーを片手に、<br>気になる本を自由に手に取って<br class="sp-br">お過ごしいただけます。
+        </p>
+        <p class="about__text">
+          静かな時間の中で出会った一冊は、<br>そのままご購入いただくことも可能です。
+        </p>
+      </div>         
+    </div>
+  </section>
+
+    <!-- 店内での過ごし方 -->
+    <section id="service" class="service">
+      <div class="section-inner service__inner">
+        <h2 class="section-title">店内での過ごし方</h2>
+
+        <div class="service__cards">
+
+          <div class="service-card">
+            <figure class="service-card__img">
+                <img loading="lazy" decoding="async" src="image/service-coffee.png" alt="コーヒーを楽しむ" width="304" height="200">
+            </figure>
+            <div class="service-card__body">
+              <h3 class="service-card__title">コーヒーを楽しむ</h3>
+              <p class="service-card__text">店内で丁寧に淹れたコーヒーをご用意しています。</p>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <figure class="service-card__img">
+                <img loading="lazy" decoding="async" src="image/service-pick-book.png" alt="本を手に取る" width="304" height="200">
+            </figure>
+            <div class="service-card__body">
+              <h3 class="service-card__title">本を手に取る</h3>
+              <p class="service-card__text">気になる本を自由に読みながらお選びいただけます。</p>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <figure class="service-card__img">
+                <img loading="lazy" decoding="async" src="image/service-take-home.png" alt="本を持ち帰る" width="304" height="200">
+            </figure>
+            <div class="service-card__body">
+              <h3 class="service-card__title">本を持ち帰る</h3>
+              <p class="service-card__text">気に入った本はそのままご購入いただけます。</p>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="faq">
+      <div class="section-inner faq__inner">
+
+        <h2 class="section-title">よくあるご質問</h2>
+
+        <dl class="faq__content">
+
+          <div class="faq-item">
+            <dt class="faq-question">
+              <span class="faq-q">q</span>
+              店内でコーヒーは飲めますか？
+            </dt>
+              
+            <dd class="faq-answer">
+              <span class="faq-a">a</span>
+              はい、ご注文いただいたコーヒーを店内でお楽しみいただけます。<br>
+              お席でゆっくりと本を読みながらお過ごしください。
+            </dd>
+          </div>
+
+          <div class="faq-item">
+            <dt class="faq-question">
+              <span class="faq-q">q</span>
+              本は自由に読むことができますか？
+            </dt>
+            <dd class="faq-answer">
+              <span class="faq-a">a</span>
+              店内の本はご自由に手に取ってお読みいただけます。<br>
+              気に入った一冊はそのままご購入も可能です。
+            </dd>
+          </div>
+
+          <div class="faq-item">
+            <dt class="faq-question">
+              <span class="faq-q">q</span>
+              支払い方法は何がありますか？
+            </dt>
+            <dd class="faq-answer">
+              <span class="faq-a">a</span>
+              現金のほか、クレジットカードや交通系IC、<br>
+              PayPayなどのキャッシュレス決済にも対応しています。
+            </dd>
+          </div>
+
+          <div class="faq-item">
+            <dt class="faq-question">
+              <span class="faq-q">q</span>
+              長時間の滞在は可能ですか？
+            </dt>
+            <dd class="faq-answer">
+              <span class="faq-a">a</span>
+              混雑時を除き、時間を気にせずご利用いただけます。<br>
+              長時間のご利用の際は譲り合いにご協力をお願いします。
+            </dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- アクセス -->
+    <section id="access" class="access">
+      <div class="section-inner access__inner">
+
+        <h2 class="section-title">アクセス</h2>
+
+        <div class="access__content">
+
+          <dl class="access__info">
+
+            <div class="access__item">
+              <dt class="access__label">住所</dt>
+              <dd class="access__text">
+                <address>〒030-0000　長野県〇〇町△△ 1-2-3</address>
+              </dd>
+            </div>
+
+            <div class="access__item">
+              <dt class="access__label">営業時間</dt>
+              <dd class="access__text">9:00~18:00</dd>
+            </div>
+
+            <div class="access__item">
+              <dt class="access__label">最寄駅</dt>
+              <dd class="access__text">〇〇駅　徒歩5分</dd>
+            </div>
+
+            <div class="access__item">
+              <dt class="access__label">電話番号</dt>
+              <dd class="access__text access__tel-number"><a href="tel:00000000000">000-0000-0000</a></dd>
+            </div>
+
+          </dl>
+
+          <div class="access__map">
+            <iframe title="Ster Booksの所在地マップ" class="access__map-link" src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d3213.7684217136534!2d138.6339211!3d36.342162!3m2!1i1024!2i768!4f13.1!2m1!1z6Lu95LqV5rKi6aeF!5e0!3m2!1sja!2sjp!4v1776324636555!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer__inner">
+        <nav class="footer__nav">
+          <ul class="footer__list">
+            <li class="footer__item"><a class="footer__link" href="#about">私たちについて</a></li>
+            <li class="footer__item"><a class="footer__link" href="#service">店内での過ごし方</a></li>
+            <li class="footer__item"><a class="footer__link" href="#faq">よくあるご質問</a></li>
+            <li class="footer__item"><a class="footer__link" href="#access">アクセス</a></li>
+          </ul>
+        </nav>
+        <p class="footer__copy">&copy; 2026, ster books</p>
+      </div>
+    </footer>
+
+  </body>
+</html>
